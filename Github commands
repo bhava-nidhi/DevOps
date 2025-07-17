@@ -1,0 +1,26 @@
+git clone <repository_url>
+git clone https://gitlab.com/username/example-repo.git
+
+# a. Navigate into the cloned repository
+cd example-repo
+
+# b. Create a new text file named "filename.txt"
+echo "This is some sample content." > filename.txt
+
+# c. (Done by echo command above)
+# d. (Already saved)
+
+# e. Check the status of the repository
+git status
+
+# f. Stage the changes for commit
+git add filename.txt
+
+# g. Commit the changes with a descriptive message
+git commit -m "Added filename.txt with sample content"
+
+# h. Create a new branch named "feature"
+git branch feature
+
+# i. Switch to the "feature" branch
+git checkout feature
